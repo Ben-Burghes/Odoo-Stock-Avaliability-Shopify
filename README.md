@@ -53,7 +53,3 @@ This Odoo module automates stock updates for Shopify by maintaining a custom tab
 - Implement retry mechanisms for failed Shopify API calls.
 - Optimize parent product determination for performance improvements.
 
-## License
-
-This module is proprietary and should not be shared without permission.
-
