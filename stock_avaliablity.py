@@ -22,7 +22,7 @@ class StockAvailability(models.Model):
         if isinstance(product_id, int):
             product_id = self.env["product.product"].browse(product_id)
 
-        # TODO(Karl): Talk to TC as this parent determination can be relatively
+        # TODO: This parent determination can be relatively
         # expensive. Should this really be upfront in the time sensitive areas where
         # _dirty is called? Probably not.
 
